@@ -1,0 +1,39 @@
+{
+    "keys": {},
+
+    "endpoint": "production",
+
+    "settings": {
+        "subscription_grace_hours": 168,
+        "subscription_grace_final_hours": 24,
+        "segmentio_flush_at": 10,
+        "sync_initial_blocksize": 100,
+        "sync_subsequent_blocksize": 100,
+        "sync_ratelimit_seconds": 60,
+        "sync_retry_interval_seconds": 60,
+        "sync_retry_attempts": 10,
+        "sync_allow_initial_mode": true,
+        "sync_prefetch_artwork": true,
+        "sync_prefetch_artwork_wifi_only": true,
+        "sync_prefetch_details": false,
+
+        "download_target_foreground_session_count": 3,
+        "download_enable_background_sessions": true,
+        "download_allow_cellular_downloads": true,
+
+        "userconfig_default_allow_celluar_downloads": false,
+        "userconfig_default_auto_download": false
+
+    },
+
+    "features": {
+        "subscription": true,
+        "skip_login": true,
+        "rotation": false,
+        "download_all": false,
+        "auto_download": false,
+        "tell_friends": false,
+        "send_feedback": false
+    }
+
+}

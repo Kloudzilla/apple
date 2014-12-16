@@ -1,0 +1,19 @@
+{
+    "keys": {
+        "parse_application": "JrEzWmToJTZ6Yj5zaQyUTWCX9pxQhH45Wx2SrlUH",
+        "parse_client": "OEiRfQwlI0KiQxhfUNOMWxDqpV4NCVvwmu8IgKG5",
+        "crashlytics": "61b1074986d852a613cdbddc43992fa8197cb1d3",
+        "segmentio": "tapktq9w7l"
+    },
+
+    "development": true,
+    "endpoint": "staging",
+
+    "settings": {
+        "segmentio_flush_at": 1
+    },
+
+    "features": {
+    }
+
+}
